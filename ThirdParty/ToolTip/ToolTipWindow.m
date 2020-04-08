@@ -1,15 +1,11 @@
 #import "ToolTipWindow.h"
 
-@implementation ToolTipWindow
+@interface NSColor (privateToolTipColor)
++ (NSColor*)toolTipColor;
+@end
 
-- (void)setBackgroundColor:(NSColor *)bgColor
-{
-    backgroundColor = bgColor;
-}
-- (NSColor *)backgroundColor
-{
-    return backgroundColor;
-}
+@implementation ToolTipWindow
+//@synthesize backgroundColor;
 
 - (NSSize)suggestedSizeForTooltip:(id)tooltip
 {
@@ -41,7 +37,7 @@
         [self setAlphaValue:0.90];
         [self setOpaque:NO];
         [self setHasShadow:YES];
-		[self setBackgroundColor:[NSColor textBackgroundColor]];
+		[self setBackgroundColor:[NSColor toolTipColor]];
         [self setLevel:NSStatusWindowLevel];
         [self setHidesOnDeactivate:YES];
         [self setIgnoresMouseEvents:YES];
@@ -75,7 +71,7 @@
 	}
 }
 
-- (id)toolTip { return tooltipObject; }
+@synthesize toolTip=tooltipObject;
 
 - (void)setToolTip:(id)tip
 {

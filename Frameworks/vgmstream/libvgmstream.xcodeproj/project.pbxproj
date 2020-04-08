@@ -440,7 +440,7 @@
 		836F705418BDC2190095E648 /* streamfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 836F6F1818BDC2190095E648 /* streamfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		836F705518BDC2190095E648 /* streamtypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 836F6F1918BDC2190095E648 /* streamtypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		836F705618BDC2190095E648 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 836F6F1A18BDC2190095E648 /* util.c */; };
-		836F705718BDC2190095E648 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 836F6F1B18BDC2190095E648 /* util.h */; };
+		836F705718BDC2190095E648 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 836F6F1B18BDC2190095E648 /* util.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		836F705818BDC2190095E648 /* vgmstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 836F6F1C18BDC2190095E648 /* vgmstream.c */; };
 		836F705918BDC2190095E648 /* vgmstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 836F6F1D18BDC2190095E648 /* vgmstream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83709E051ECBC1A4005C03D3 /* gtd.c in Sources */ = {isa = PBXBuildFile; fileRef = 83709DFF1ECBC1A4005C03D3 /* gtd.c */; };

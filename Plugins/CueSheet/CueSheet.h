@@ -11,16 +11,16 @@
 @class CueSheetTrack;
 
 @interface CueSheet : NSObject {
-	NSArray *tracks;
+	NSArray<CueSheetTrack *> *tracks;
 }
 
-+ (id)cueSheetWithFile: (NSString *)filename;
++ (instancetype)cueSheetWithFile: (NSString *)filename;
 
-- (id)initWithFile:(NSString *)filename;
+- (instancetype)initWithFile:(NSString *)filename;
 
 - (void)parseFile:(NSString *)filename;
 
-- (NSArray *)tracks;
+@property (readonly, copy) NSArray<CueSheetTrack *> *tracks;
 
 - (CueSheetTrack *)track:(NSString *)fragment;
 

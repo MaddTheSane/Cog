@@ -9,8 +9,6 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface PlaylistBehaviorArrayController : NSArrayController {
-
-}
+@interface PlaylistBehaviorArrayController : NSArrayController
 
 @end

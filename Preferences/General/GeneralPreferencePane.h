@@ -10,16 +10,15 @@
 #import "PreferencePanePlugin.h"
 
 @interface GeneralPreferencePane : NSObject <PreferencePane> {
-	IBOutlet NSView *view;
+	NSView *view;
 	
 	NSString *title;
 	NSImage *icon;
 }
 
-+ (GeneralPreferencePane *)preferencePaneWithView:(NSView *)v title:(NSString *)t iconNamed:(NSString *)i;
-
-- (void)setView:(NSView *)v;
-- (void)setTitle:(NSString *)t;
-- (void)setIcon:(NSImage *)i;
++ (GeneralPreferencePane *)preferencePaneWithView:(NSView *)v title:(NSString *)t iconNamed:(NSImageName)i;
+@property (strong) IBOutlet NSView *view;
+@property (copy) NSString *title;
+@property (strong) NSImage *icon;
 
 @end

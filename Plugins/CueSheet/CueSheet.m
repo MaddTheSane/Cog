@@ -262,10 +262,7 @@
 	return self;
 }
 
-- (NSArray *)tracks
-{
-	return tracks;
-}
+@synthesize tracks;
 
 - (CueSheetTrack *)track:(NSString *)fragment
 {

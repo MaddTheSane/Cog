@@ -14,29 +14,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-
-@interface GCOneShotEffectTimer : NSObject
-{
-	NSTimer*			_timer;
-	NSTimeInterval		_start;
-	NSTimeInterval		_total;
-	id					_delegate;
-}
-
-+ (id)			oneShotWithTime:(NSTimeInterval) t forDelegate:(id) del;
-
-@end
-
-
-
-@interface NSObject (OneShotDelegate)
-
-- (void)		oneShotHasReached:(float) relpos;
-- (void)		oneShotHasReachedInverse:(float) relpos;
-- (void)		oneShotComplete;
-
-@end
-
+@protocol OneShotDelegate;
 
 /* This class wraps up a very simple piece of timer functionality. It sets up a timer that will call the
 	delegate frequently with a value from 0..1. Once 1 is reached, it stops.
@@ -51,3 +29,27 @@
 	frames as needed.
 	
 */
+@interface GCOneShotEffectTimer : NSObject
+{
+	NSTimer*			_timer;
+	NSTimeInterval		_start;
+	NSTimeInterval		_total;
+	id<OneShotDelegate>	_delegate;
+}
+
++ (instancetype)oneShotWithTime:(NSTimeInterval) t forDelegate:(id<OneShotDelegate>) del;
+
+@end
+
+
+
+@protocol OneShotDelegate <NSObject>
+
+@optional
+- (void)		oneShotHasReached:(float) relpos;
+- (void)		oneShotHasReachedInverse:(float) relpos;
+@required
+- (void)		oneShotComplete;
+
+@end
+

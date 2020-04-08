@@ -16,17 +16,17 @@
 @end
 
 @protocol CogContainer <NSObject> 
-+ (NSArray *)fileTypes; //mp3, ogg, etc
-+ (NSArray *)mimeTypes;
++ (NSArray<NSString*> *)fileTypes; //mp3, ogg, etc
++ (NSArray<NSString*> *)mimeTypes;
 + (float)priority;
 
-+ (NSArray *)urlsForContainerURL:(NSURL *)url;
++ (NSArray<NSURL*> *)urlsForContainerURL:(NSURL *)url;
 @end
 
 @protocol CogDecoder <NSObject> 
 @required
-+ (NSArray *)mimeTypes;
-+ (NSArray *)fileTypes; //mp3, ogg, etc
++ (NSArray<NSString*> *)mimeTypes;
++ (NSArray<NSString*> *)fileTypes; //mp3, ogg, etc
 + (float)priority; // should be 0.0 ... 1.0, higher means you get selected first, should default to 1.0 unless you know a reason why any of your extensions may behave badly, ie. greedily taking over some file type extension without performing any header validation on it
 
 //For KVO
@@ -40,8 +40,6 @@
 - (void)close;
 
 @optional
-- (void)dealloc;
-
 - (BOOL)setTrack:(NSURL *)track;
 
 //These are in NSObject, so as long as you are a subclass of that, you are ok.
@@ -50,10 +48,10 @@
 @end
 
 @protocol CogMetadataReader <NSObject>
-+ (NSArray *)fileTypes;
-+ (NSArray *)mimeTypes;
++ (NSArray<NSString*> *)fileTypes;
++ (NSArray<NSString*> *)mimeTypes;
 + (float)priority;
-+ (NSDictionary *)metadataForURL:(NSURL *)url;
++ (NSDictionary<NSString*,id> *)metadataForURL:(NSURL *)url;
 @end
 
 @protocol CogMetadataWriter <NSObject>
@@ -63,8 +61,8 @@
 @end
 
 @protocol CogPropertiesReader <NSObject>
-+ (NSArray *)fileTypes;
-+ (NSArray *)mimeTypes;
++ (NSArray<NSString*> *)fileTypes;
++ (NSArray<NSString*> *)mimeTypes;
 + (float)priority;
 + (NSDictionary *)propertiesForSource:(id<CogSource>)source;
 @end

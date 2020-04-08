@@ -14,7 +14,7 @@
 		83686AAC1C5C69D400671C7A /* AUPlayerView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 83686AAB1C5C69D400671C7A /* AUPlayerView.mm */; };
 		83686AB11C5C783000671C7A /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83686AB01C5C783000671C7A /* CoreAudioKit.framework */; };
 		8398F2E01C438C7D00EB9639 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8398F2DF1C438C7D00EB9639 /* AudioUnit.framework */; };
-		839CA224180D902100553DBA /* midi_processing.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83B066E0180D56BA008E3612 /* midi_processing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		839CA224180D902100553DBA /* midi_processing.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83B066E0180D56BA008E3612 /* midi_processing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		83A09F621CFA83F2001E7D2D /* i_oplmusic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A09F561CFA83F2001E7D2D /* i_oplmusic.cpp */; };
 		83A09F631CFA83F2001E7D2D /* opl3midi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A09F5A1CFA83F2001E7D2D /* opl3midi.cpp */; };
 		83A09F641CFA83F2001E7D2D /* opl3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A09F5E1CFA83F2001E7D2D /* opl3.cpp */; };

@@ -9,7 +9,7 @@
 #import "NSComparisonPredicate+CogPredicate.h"
 
 // Ignore case and diacritics
-static const unsigned OPTIONS = (NSCaseInsensitivePredicateOption|
+static const NSComparisonPredicateOptions OPTIONS = (NSCaseInsensitivePredicateOption|
                                  NSDiacriticInsensitivePredicateOption);
 
 @implementation NSComparisonPredicate (CogPredicate)

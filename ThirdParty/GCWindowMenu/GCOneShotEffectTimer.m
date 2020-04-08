@@ -16,11 +16,12 @@
 
 #import "Logging.h"
 
-@interface GCOneShotEffectTimer (Private)
+@interface GCOneShotEffectTimer ()
 
 - (id)		initWithTimeInterval:(NSTimeInterval) t forDelegate:(id) del;
-- (void)	setDelegate:(id) del;
-- (id)		delegate;
+// delegate is retained and released when one-shot completes. This allows some effects to work even
+// though the original delegate might be released by the caller.
+@property (strong) id<OneShotDelegate> delegate;
 - (void)	osfx_callback:(NSTimer*) timer;
 
 @end
@@ -60,19 +61,7 @@
 }
 
 
-- (void)	setDelegate:(id) del
-{
-	// delegate is retained and released when one-shot completes. This allows some effects to work even
-	// though the original delegate might be released by the caller.
-	
-	_delegate = del;
-}
-
-
-- (id)		delegate
-{
-	return _delegate;
-}
+@synthesize delegate=_delegate;
 
 
 - (void)	osfx_callback:(NSTimer*) timer

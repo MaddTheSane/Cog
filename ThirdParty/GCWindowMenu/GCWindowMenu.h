@@ -29,16 +29,31 @@
 - (void)			popUpWithEvent:(NSEvent*) event;
 
 - (void)			setMainView:(NSView*) aView sizeToFit:(BOOL) stf;
-- (NSView*)			mainView;
+@property (readonly, retain) NSView *mainView;
 
-- (void)			setMainViewWantsFirstClick:(BOOL) firstClick;
-- (void)			setShouldCloseWhenViewTrackingReturns:(BOOL) cmup;
+/*!
+ * Sets whether the main view should receive a mouse down on entry to the tracking loop
+ *
+ * @discussion normally should be YES (the default). However views such as NSControl derivatives that implement
+ * their own tracking should set NO. If NO, the popup can only be operated by clicking to open, then
+ * clicking and dragging within - the continuous click to open, drag through and release operation
+ * wont work because the control doesn't get a mouse down to start with.
+ */
+@property BOOL mainViewWantsFirstClick;
+
+/*!
+ * Sets whether popup should close or remain visible after main view completes its own tracking.
+ * @discussion this affects tracking with views that implement their own tracking, such as NSControl. If YES, you
+ * get one shot at the control - after operating it, it will be hidden. If NO, the control may be
+ * changed as often as you want but you must manually click outside the menu to close it.
+ */
+@property BOOL shouldCloseWhenViewTrackingReturns;
 
 @end
 
 
 @interface NSEvent (GCAdditions)
 
-- (BOOL)			isMouseEventType;
+@property (readonly, getter=isMouseEventType) BOOL mouseEventType;
 
 @end

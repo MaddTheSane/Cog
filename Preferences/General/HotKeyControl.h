@@ -9,7 +9,6 @@
 #import <Cocoa/Cocoa.h>
 #import <NDHotKey/NDHotKeyControl.h>
 
-@interface HotKeyControl : NDHotKeyControl {
-}
+@interface HotKeyControl : NDHotKeyControl
 
 @end

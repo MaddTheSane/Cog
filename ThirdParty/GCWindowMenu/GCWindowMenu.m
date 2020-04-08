@@ -17,7 +17,7 @@
 
 #import "Logging.h"
 
-@interface GCWindowMenu (Private)
+@interface GCWindowMenu () <OneShotDelegate>
 
 + (void)		popUpWindowMenu:(GCWindowMenu*) menu withEvent:(NSEvent*) event;
 + (void)		popUpWindowMenu:(GCWindowMenu*) menu atPoint:(NSPoint) loc withEvent:(NSEvent*) event;
@@ -279,7 +279,7 @@
 	
 	NSEvent*		theEvent;
 	BOOL			keepOn = YES;
-	unsigned int	mask;
+	NSEventMask		mask;
 	BOOL			invertedTracking = NO;
 	
 	mask = NSLeftMouseUpMask | NSLeftMouseDraggedMask |
@@ -480,11 +480,7 @@
 /// notes:			
 ///
 ///********************************************************************************************************************
-
-- (NSView*)			mainView
-{
-	return _mainView;
-}
+@synthesize mainView=_mainView;
 
 
 ///*********************************************************************************************************************
@@ -503,11 +499,7 @@
 ///					wont work because the control doesn't get a mouse down to start with.
 ///
 ///********************************************************************************************************************
-
-- (void)			setMainViewWantsFirstClick:(BOOL) firstClick
-{
-	_passFirstClick = firstClick;
-}
+@synthesize mainViewWantsFirstClick=_passFirstClick;
 
 
 ///*********************************************************************************************************************
@@ -525,11 +517,7 @@
 ///					changed as often as you want but you must manually click outside the menu to close it.
 ///
 ///********************************************************************************************************************
-
-- (void)			setShouldCloseWhenViewTrackingReturns:(BOOL) cmup
-{
-	_oneShotTracking = cmup;
-}
+@synthesize shouldCloseWhenViewTrackingReturns=_oneShotTracking;
 
 
 ///*********************************************************************************************************************

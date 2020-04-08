@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17C8F6950CBEE846008D969D /* DumbDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C8F68F0CBEE846008D969D /* DumbDecoder.m */; };
-		17C8F69F0CBEE85F008D969D /* Dumb.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 17C8F69E0CBEE857008D969D /* Dumb.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		17C8F69F0CBEE85F008D969D /* Dumb.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 17C8F69E0CBEE857008D969D /* Dumb.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		17C8F7B90CBEF380008D969D /* Dumb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C8F69E0CBEE857008D969D /* Dumb.framework */; };
 		17DA363E0CC0600E0003F6B2 /* DumbMetadataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DA363C0CC0600E0003F6B2 /* DumbMetadataReader.m */; };
 		8335FF6717FF6FD9002D8DD2 /* DumbContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8335FF6617FF6FD9002D8DD2 /* DumbContainer.m */; };
@@ -65,10 +65,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
-		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		089C167EFE841241C02AAC07 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		17C8F68E0CBEE846008D969D /* DumbDecoder.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DumbDecoder.h; sourceTree = "<group>"; };
 		17C8F68F0CBEE846008D969D /* DumbDecoder.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DumbDecoder.m; sourceTree = "<group>"; };
 		17C8F6990CBEE857008D969D /* Dumb.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Dumb.xcodeproj; path = ../../Frameworks/Dumb/Dumb.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -86,7 +86,7 @@
 		8337AAEB17FFA0000081AFF8 /* urf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = urf.h; sourceTree = "<group>"; };
 		8337AAEF17FFA2D30081AFF8 /* j2b.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = j2b.c; sourceTree = "<group>"; };
 		8337AAF017FFA2D30081AFF8 /* j2b.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = j2b.h; sourceTree = "<group>"; };
-		833F68331CDBCAB100AFB9F0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		833F68331CDBCAB100AFB9F0 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83527EE618242FD5002F170E /* libunmo3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libunmo3.dylib; path = ../../../ThirdParty/BASS/libunmo3.dylib; sourceTree = "<group>"; };
 		83527EE718242FD5002F170E /* unmo3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unmo3.h; path = ../../../ThirdParty/BASS/unmo3.h; sourceTree = "<group>"; };
 		83527EE918243029002F170E /* mo3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mo3.h; path = mo3/mo3.h; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 		83FAF8A418ADD45600057CAF /* PlaylistController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaylistController.h; path = ../../Playlist/PlaylistController.h; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* Dumb.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dumb.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,20 +120,19 @@
 				08FB77AFFE84173DC02AAC07 /* Classes */,
 				32C88E010371C26100C91783 /* Other Sources */,
 				089C167CFE841241C02AAC07 /* Resources */,
-				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				089C1671FE841209C02AAC07 /* Frameworks */,
 				19C28FB8FE9D52D311CA2CBB /* Products */,
-				83B820D21D790C3700B6FC6D /* Frameworks */,
 			);
 			name = Dumb;
 			sourceTree = "<group>";
 		};
-		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+		089C1671FE841209C02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
 				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
 			);
-			name = "Frameworks and Libraries";
+			name = "Frameworks";
 			sourceTree = "<group>";
 		};
 		089C167CFE841241C02AAC07 /* Resources */ = {
@@ -167,6 +166,7 @@
 			children = (
 				17C8F6990CBEE857008D969D /* Dumb.xcodeproj */,
 				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				83B820D31D790C3800B6FC6D /* libz.tbd */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -248,14 +248,6 @@
 			name = mo3;
 			sourceTree = "<group>";
 		};
-		83B820D21D790C3700B6FC6D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				83B820D31D790C3800B6FC6D /* libz.tbd */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -296,7 +288,7 @@
 			};
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Dumb" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				en,
@@ -368,7 +360,7 @@
 		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C167EFE841241C02AAC07 /* English */,
+				089C167EFE841241C02AAC07 /* en */,
 				833F68331CDBCAB100AFB9F0 /* es */,
 			);
 			name = InfoPlist.strings;

@@ -15,7 +15,7 @@
 	id closeTimer;
     id tooltipObject;
 
-	NSColor *backgroundColor;
+//	NSColor *backgroundColor;
 	NSDictionary *textAttributes;
 }
 
@@ -23,13 +23,11 @@
 - (NSSize)suggestedSizeForTooltip:(id)tooltip;
 
 // setting and getting the bgColor
-- (void)setBackgroundColor:(NSColor *)bgColor;
-- (NSColor *)backgroundColor;
+//@property (copy) NSColor *backgroundColor;
 
-- (id)init;
+- (instancetype)init;
 
-- (id)toolTip;
-- (void)setToolTip:(id)tip;
+@property (nonatomic, strong) id toolTip;
 
 - (void)orderFront;
 - (void)orderFrontForDuration:(NSTimeInterval)duration;

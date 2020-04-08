@@ -320,16 +320,8 @@
 			children = (
 				8333B66F1DCC46BA004C140D /* libz.tbd */,
 				83756F611D23A95B003A7676 /* CoreServices.framework */,
-				8359FF4117FEF39F0060F3ED /* Other Frameworks */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8359FF4117FEF39F0060F3ED /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		8359FF4517FEF39F0060F3ED /* File_Extractor */ = {

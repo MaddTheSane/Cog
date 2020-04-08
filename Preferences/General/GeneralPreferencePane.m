@@ -19,41 +19,15 @@
 		[pane setView:v];
 		[pane setTitle:t];
 
-		NSImage *i = [[NSImage alloc] initWithContentsOfFile:[[NSBundle bundleForClass:[self class]] pathForImageResource:n]];
+		NSImage *i = [[NSBundle bundleForClass:[self class]] imageForResource:n];
 		[pane setIcon:i];
 	}
 	
 	return pane;
 }
 
-- (NSView *)view
-{
-	return view;
-}
-
-- (NSString *)title
-{
-	return title;
-}
-
-- (NSImage *)icon
-{
-	return icon;
-}
-
-- (void)setView:(NSView *)v
-{
-	view = v;
-}
-
-- (void)setTitle:(NSString *)t
-{
-	title = t;
-}
-
-- (void)setIcon:(NSImage *)i
-{
-    icon = i;
-}
+@synthesize view;
+@synthesize title;
+@synthesize icon;
 
 @end

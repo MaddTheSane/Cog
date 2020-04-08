@@ -8,20 +8,20 @@
 
 #import <Cocoa/Cocoa.h>
 
-
+@protocol PreferencePane;
 @protocol PreferencePanePlugin <NSObject> 
 @required
 
 // An array of PrefPaneController instances that the plugin has available
-+ (NSArray *)preferencePanes;
++ (NSArray<id<PreferencePane>> *)preferencePanes;
 
 @end
 
 @protocol PreferencePane <NSObject>
 @required
 
-- (NSView *)view;
-- (NSString *)title;
-- (NSImage *)icon;
+@property (readonly, strong) NSView *view;
+@property (readonly, copy) NSString *title;
+@property (readonly, strong) NSImage *icon;
 
 @end

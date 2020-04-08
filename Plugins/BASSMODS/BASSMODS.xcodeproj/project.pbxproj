@@ -184,7 +184,7 @@
 			};
 			buildConfigurationList = 839BCFCD1965133E00947767 /* Build configuration list for PBXProject "BASSMODS" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,

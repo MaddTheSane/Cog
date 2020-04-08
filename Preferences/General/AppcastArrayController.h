@@ -9,8 +9,6 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface AppcastArrayController : NSArrayController {
-
-}
+@interface AppcastArrayController : NSArrayController
 
 @end

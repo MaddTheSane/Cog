@@ -8,40 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		170744AD0BFF3938002475C9 /* AppcastArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170744AC0BFF3938002475C9 /* AppcastArrayController.m */; };
-		172D72AD0B8926CA00D095BB /* apple_remote.png in Resources */ = {isa = PBXBuildFile; fileRef = 172D72AC0B8926CA00D095BB /* apple_remote.png */; };
-		1766C7A80B912A71004A7AE4 /* lastfm.png in Resources */ = {isa = PBXBuildFile; fileRef = 1766C7A70B912A71004A7AE4 /* lastfm.png */; };
 		178E386E0C3DA64500EE6711 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 178E386D0C3DA64500EE6711 /* InfoPlist.strings */; };
 		17C643380B8A77CC00C53518 /* OutputsArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C643360B8A77CC00C53518 /* OutputsArrayController.m */; };
 		17C6433F0B8A783F00C53518 /* OutputPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C6433E0B8A783F00C53518 /* OutputPane.m */; };
-		17C643690B8A788000C53518 /* output.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C643680B8A788000C53518 /* output.png */; };
 		17C644330B8A791D00C53518 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C644310B8A791D00C53518 /* CoreAudio.framework */; };
-		17C7E5B00DCCC30A003CBCF7 /* playlist.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C7E5AF0DCCC30A003CBCF7 /* playlist.png */; };
 		17E41DB80C130AA500AC744D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17E41DB70C130AA500AC744D /* Localizable.strings */; };
-		17E78A7E0D68BE3C005C5A59 /* file_tree.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E78A7D0D68BE3C005C5A59 /* file_tree.png */; };
 		17E78B6A0D68C1E3005C5A59 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17E78B680D68C1E3005C5A59 /* Preferences.xib */; };
+		55920084243E837A0053C62C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55920083243E837A0053C62C /* Media.xcassets */; };
 		8372053718E3DEAF007EFAD4 /* ResamplerBehaviorArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8372053618E3DEAF007EFAD4 /* ResamplerBehaviorArrayController.m */; };
 		837C0D401C50954000CAE18F /* MIDIPluginBehaviorArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837C0D3F1C50954000CAE18F /* MIDIPluginBehaviorArrayController.m */; };
-		8384917718084D9F00E7332D /* appearance.png in Resources */ = {isa = PBXBuildFile; fileRef = 8384917518084D9F00E7332D /* appearance.png */; };
-		8384917818084D9F00E7332D /* growl.png in Resources */ = {isa = PBXBuildFile; fileRef = 8384917618084D9F00E7332D /* growl.png */; };
-		8384918C1808596A00E7332D /* NDHotKey.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 838491841808588D00E7332D /* NDHotKey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		83B06729180D85B8008E3612 /* MIDIPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B06728180D85B8008E3612 /* MIDIPane.m */; };
-		83B0672B180D8B39008E3612 /* midi.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B0672A180D8B39008E3612 /* midi.png */; };
 		83DFEA0B1CBC94DE00BCC565 /* MIDIFlavorBehaviorArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DFEA0A1CBC94DE00BCC565 /* MIDIFlavorBehaviorArrayController.m */; };
 		83EF495F17FBC96A00642E3C /* VolumeBehaviorArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EF495E17FBC96A00642E3C /* VolumeBehaviorArrayController.m */; };
 		83F127AA1DEE47E90010CB8F /* MIDIPluginFlavorTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F127A81DEE47E90010CB8F /* MIDIPluginFlavorTransformer.m */; };
-		83F27E6B1810DD3A00CEF538 /* appearance@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F27E651810DD3A00CEF538 /* appearance@2x.png */; };
-		83F27E6C1810DD3A00CEF538 /* growl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F27E661810DD3A00CEF538 /* growl@2x.png */; };
-		83F27E6D1810DD3A00CEF538 /* lastfm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F27E671810DD3A00CEF538 /* lastfm@2x.png */; };
-		83F27E6E1810DD3A00CEF538 /* midi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F27E681810DD3A00CEF538 /* midi@2x.png */; };
-		83F27E6F1810DD3A00CEF538 /* playlist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F27E691810DD3A00CEF538 /* playlist@2x.png */; };
-		83F27E701810DD3A00CEF538 /* updates@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F27E6A1810DD3A00CEF538 /* updates@2x.png */; };
 		83F27E741810E45D00CEF538 /* PathToFileTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F27E731810E45D00CEF538 /* PathToFileTransformer.m */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 		8E07AA880AAC8EA200A4B32F /* HotKeyPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E07AA810AAC8EA200A4B32F /* HotKeyPane.m */; };
 		8E07AA890AAC8EA200A4B32F /* GeneralPreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E07AA830AAC8EA200A4B32F /* GeneralPreferencePane.m */; };
 		8E07AA8A0AAC8EA200A4B32F /* GeneralPreferencesPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E07AA850AAC8EA200A4B32F /* GeneralPreferencesPlugin.m */; };
-		8E07ABDD0AAC95BC00A4B32F /* hot_keys.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E07ABDB0AAC95BC00A4B32F /* hot_keys.png */; };
-		8E15A86C0B894768006DC802 /* updates.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E15A86B0B894768006DC802 /* updates.png */; };
 		8E6C123A0AACAEF200819171 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6C12390AACAEF200819171 /* Carbon.framework */; };
 		8E6C13A00AACBAB500819171 /* HotKeyControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6C139F0AACBAB500819171 /* HotKeyControl.m */; };
 		99F1813F0DE01D7A00FD5FFB /* PlaylistBehaviorArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F1813E0DE01D7A00FD5FFB /* PlaylistBehaviorArrayController.m */; };
@@ -71,49 +55,41 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8384918C1808596A00E7332D /* NDHotKey.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
-		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		170744AB0BFF3938002475C9 /* AppcastArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppcastArrayController.h; sourceTree = "<group>"; };
 		170744AC0BFF3938002475C9 /* AppcastArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppcastArrayController.m; sourceTree = "<group>"; };
-		172D72AC0B8926CA00D095BB /* apple_remote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple_remote.png; path = Icons/apple_remote.png; sourceTree = "<group>"; };
-		1766C7A70B912A71004A7AE4 /* lastfm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lastfm.png; path = Icons/lastfm.png; sourceTree = "<group>"; };
 		17C643360B8A77CC00C53518 /* OutputsArrayController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = OutputsArrayController.m; sourceTree = "<group>"; };
 		17C643370B8A77CC00C53518 /* OutputsArrayController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OutputsArrayController.h; sourceTree = "<group>"; };
 		17C6433D0B8A783F00C53518 /* OutputPane.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OutputPane.h; sourceTree = "<group>"; };
 		17C6433E0B8A783F00C53518 /* OutputPane.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = OutputPane.m; sourceTree = "<group>"; };
-		17C643680B8A788000C53518 /* output.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = output.png; path = Icons/output.png; sourceTree = "<group>"; };
-		17C644310B8A791D00C53518 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
-		17C7E5AF0DCCC30A003CBCF7 /* playlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playlist.png; path = Icons/playlist.png; sourceTree = "<group>"; };
+		17C644310B8A791D00C53518 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		17D1B3F60F6349CE00694C57 /* PreferencePanePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreferencePanePlugin.h; path = ../PreferencePanePlugin.h; sourceTree = SOURCE_ROOT; };
-		17E78A7D0D68BE3C005C5A59 /* file_tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = file_tree.png; path = Icons/file_tree.png; sourceTree = "<group>"; };
 		32DBCF630370AF2F00C91783 /* General_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = General_Prefix.pch; sourceTree = "<group>"; };
 		3DFAC48E235B6B8100A29416 /* DEVELOPMENT_TEAM.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DEVELOPMENT_TEAM.xcconfig; sourceTree = "<group>"; };
 		3DFAC48F235B6B8100A29416 /* Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
+		55920083243E837A0053C62C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		833F681B1CDBCAA700AFB9F0 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		833F681C1CDBCAA700AFB9F0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		833F681C1CDBCAA700AFB9F0 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8347435D20E6D58800063D45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Preferences.strings; sourceTree = "<group>"; };
 		8347435F20E6D5A000063D45 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Preferences.strings; sourceTree = "<group>"; };
-		835C888922CC1880001B4B3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		835C888A22CC1880001B4B3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		835C888922CC1880001B4B3F /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		835C888A22CC1880001B4B3F /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8372053518E3DEAF007EFAD4 /* ResamplerBehaviorArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResamplerBehaviorArrayController.h; sourceTree = "<group>"; };
 		8372053618E3DEAF007EFAD4 /* ResamplerBehaviorArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResamplerBehaviorArrayController.m; sourceTree = "<group>"; };
 		837C0D3E1C50954000CAE18F /* MIDIPluginBehaviorArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIPluginBehaviorArrayController.h; sourceTree = "<group>"; };
 		837C0D3F1C50954000CAE18F /* MIDIPluginBehaviorArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDIPluginBehaviorArrayController.m; sourceTree = "<group>"; };
 		8384913618081ECB00E7332D /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Logging.h; path = ../../Utils/Logging.h; sourceTree = "<group>"; };
-		8384917518084D9F00E7332D /* appearance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appearance.png; path = Icons/appearance.png; sourceTree = "<group>"; };
-		8384917618084D9F00E7332D /* growl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = growl.png; path = Icons/growl.png; sourceTree = "<group>"; };
 		8384917F1808588D00E7332D /* NDHotKey.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NDHotKey.xcodeproj; path = ../../Frameworks/NDHotKey/NDHotKey.xcodeproj; sourceTree = "<group>"; };
 		83B06727180D85B8008E3612 /* MIDIPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIPane.h; sourceTree = "<group>"; };
 		83B06728180D85B8008E3612 /* MIDIPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDIPane.m; sourceTree = "<group>"; };
-		83B0672A180D8B39008E3612 /* midi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midi.png; path = Icons/midi.png; sourceTree = "<group>"; };
 		83BC5AB320E4C90F00631CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Preferences.xib; sourceTree = "<group>"; };
 		83DFEA091CBC94DE00BCC565 /* MIDIFlavorBehaviorArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIFlavorBehaviorArrayController.h; sourceTree = "<group>"; };
 		83DFEA0A1CBC94DE00BCC565 /* MIDIFlavorBehaviorArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDIFlavorBehaviorArrayController.m; sourceTree = "<group>"; };
@@ -121,12 +97,6 @@
 		83EF495E17FBC96A00642E3C /* VolumeBehaviorArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolumeBehaviorArrayController.m; sourceTree = "<group>"; };
 		83F127A81DEE47E90010CB8F /* MIDIPluginFlavorTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDIPluginFlavorTransformer.m; sourceTree = "<group>"; };
 		83F127A91DEE47E90010CB8F /* MIDIPluginFlavorTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIPluginFlavorTransformer.h; sourceTree = "<group>"; };
-		83F27E651810DD3A00CEF538 /* appearance@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "appearance@2x.png"; path = "Icons/appearance@2x.png"; sourceTree = "<group>"; };
-		83F27E661810DD3A00CEF538 /* growl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "growl@2x.png"; path = "Icons/growl@2x.png"; sourceTree = "<group>"; };
-		83F27E671810DD3A00CEF538 /* lastfm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lastfm@2x.png"; path = "Icons/lastfm@2x.png"; sourceTree = "<group>"; };
-		83F27E681810DD3A00CEF538 /* midi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "midi@2x.png"; path = "Icons/midi@2x.png"; sourceTree = "<group>"; };
-		83F27E691810DD3A00CEF538 /* playlist@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playlist@2x.png"; path = "Icons/playlist@2x.png"; sourceTree = "<group>"; };
-		83F27E6A1810DD3A00CEF538 /* updates@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "updates@2x.png"; path = "Icons/updates@2x.png"; sourceTree = "<group>"; };
 		83F27E721810E45D00CEF538 /* PathToFileTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathToFileTransformer.h; sourceTree = "<group>"; };
 		83F27E731810E45D00CEF538 /* PathToFileTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathToFileTransformer.m; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* General.preferencePane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = General.preferencePane; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,9 +107,7 @@
 		8E07AA830AAC8EA200A4B32F /* GeneralPreferencePane.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GeneralPreferencePane.m; sourceTree = "<group>"; };
 		8E07AA840AAC8EA200A4B32F /* GeneralPreferencesPlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GeneralPreferencesPlugin.h; sourceTree = "<group>"; };
 		8E07AA850AAC8EA200A4B32F /* GeneralPreferencesPlugin.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GeneralPreferencesPlugin.m; sourceTree = "<group>"; };
-		8E07ABDB0AAC95BC00A4B32F /* hot_keys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hot_keys.png; path = Icons/hot_keys.png; sourceTree = "<group>"; };
-		8E15A86B0B894768006DC802 /* updates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = updates.png; path = Icons/updates.png; sourceTree = "<group>"; };
-		8E6C12390AACAEF200819171 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		8E6C12390AACAEF200819171 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		8E6C139E0AACBAB500819171 /* HotKeyControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotKeyControl.h; sourceTree = "<group>"; };
 		8E6C139F0AACBAB500819171 /* HotKeyControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotKeyControl.m; sourceTree = "<group>"; };
 		99F1813D0DE01D7A00FD5FFB /* PlaylistBehaviorArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistBehaviorArrayController.h; sourceTree = "<group>"; };
@@ -166,20 +134,20 @@
 				08FB77AFFE84173DC02AAC07 /* Classes */,
 				32C88E010371C26100C91783 /* Other Sources */,
 				089C167CFE841241C02AAC07 /* Resources */,
-				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				089C1671FE841209C02AAC07 /* Frameworks */,
 				3DFAC48D235B6B8100A29416 /* Xcode-config */,
 				19C28FB8FE9D52D311CA2CBB /* Products */,
 			);
 			name = General;
 			sourceTree = "<group>";
 		};
-		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+		089C1671FE841209C02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
 				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
 			);
-			name = "Frameworks and Libraries";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		089C167CFE841241C02AAC07 /* Resources */ = {
@@ -314,24 +282,9 @@
 		8E07ABD90AAC95AF00A4B32F /* Icons */ = {
 			isa = PBXGroup;
 			children = (
-				83F27E651810DD3A00CEF538 /* appearance@2x.png */,
-				83F27E661810DD3A00CEF538 /* growl@2x.png */,
-				83F27E671810DD3A00CEF538 /* lastfm@2x.png */,
-				83F27E681810DD3A00CEF538 /* midi@2x.png */,
-				83F27E691810DD3A00CEF538 /* playlist@2x.png */,
-				83F27E6A1810DD3A00CEF538 /* updates@2x.png */,
-				83B0672A180D8B39008E3612 /* midi.png */,
-				8384917518084D9F00E7332D /* appearance.png */,
-				8384917618084D9F00E7332D /* growl.png */,
-				17C7E5AF0DCCC30A003CBCF7 /* playlist.png */,
-				17E78A7D0D68BE3C005C5A59 /* file_tree.png */,
-				1766C7A70B912A71004A7AE4 /* lastfm.png */,
-				17C643680B8A788000C53518 /* output.png */,
-				8E15A86B0B894768006DC802 /* updates.png */,
-				172D72AC0B8926CA00D095BB /* apple_remote.png */,
-				8E07ABDB0AAC95BC00A4B32F /* hot_keys.png */,
+				55920083243E837A0053C62C /* Media.xcassets */,
 			);
-			name = Icons;
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -417,25 +370,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83B0672B180D8B39008E3612 /* midi.png in Resources */,
-				83F27E6D1810DD3A00CEF538 /* lastfm@2x.png in Resources */,
 				178E386E0C3DA64500EE6711 /* InfoPlist.strings in Resources */,
-				8E07ABDD0AAC95BC00A4B32F /* hot_keys.png in Resources */,
-				172D72AD0B8926CA00D095BB /* apple_remote.png in Resources */,
-				8384917818084D9F00E7332D /* growl.png in Resources */,
-				8E15A86C0B894768006DC802 /* updates.png in Resources */,
-				8384917718084D9F00E7332D /* appearance.png in Resources */,
-				17C643690B8A788000C53518 /* output.png in Resources */,
-				1766C7A80B912A71004A7AE4 /* lastfm.png in Resources */,
-				83F27E6F1810DD3A00CEF538 /* playlist@2x.png in Resources */,
+				55920084243E837A0053C62C /* Media.xcassets in Resources */,
 				17E41DB80C130AA500AC744D /* Localizable.strings in Resources */,
-				17E78A7E0D68BE3C005C5A59 /* file_tree.png in Resources */,
-				83F27E701810DD3A00CEF538 /* updates@2x.png in Resources */,
 				17E78B6A0D68C1E3005C5A59 /* Preferences.xib in Resources */,
-				83F27E6C1810DD3A00CEF538 /* growl@2x.png in Resources */,
-				83F27E6B1810DD3A00CEF538 /* appearance@2x.png in Resources */,
-				17C7E5B00DCCC30A003CBCF7 /* playlist.png in Resources */,
-				83F27E6E1810DD3A00CEF538 /* midi@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +458,7 @@
 				GCC_PREFIX_HEADER = General_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../../Frameworks @loader_path/../Frameworks @executable_path/../Frameworks $(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = org.cogx.cog.preferences;
 				PRODUCT_NAME = General;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -540,6 +479,7 @@
 				GCC_PREFIX_HEADER = General_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../../Frameworks @loader_path/../Frameworks @executable_path/../Frameworks $(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = org.cogx.cog.preferences;
 				PRODUCT_NAME = General;
 				PROVISIONING_PROFILE_SPECIFIER = "";

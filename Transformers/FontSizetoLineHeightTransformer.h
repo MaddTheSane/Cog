@@ -9,6 +9,6 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface FontSizetoLineHeightTransformer : NSValueTransformer {}
+@interface FontSizetoLineHeightTransformer : NSValueTransformer
 
 @end
