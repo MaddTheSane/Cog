@@ -22,10 +22,10 @@
 /* Begin PBXFileReference section */
 		8334C69320B40367001DA8DC /* qsound_ctr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = qsound_ctr.c; path = Core/qsound_ctr.c; sourceTree = "<group>"; };
 		8334C69420B40367001DA8DC /* qsound_ctr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qsound_ctr.h; path = Core/qsound_ctr.h; sourceTree = "<group>"; };
-		833F682E1CDBCAB100AFB9F0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		833F682E1CDBCAB100AFB9F0 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		834378DE17F96E2600584396 /* HighlyQuixotic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HighlyQuixotic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		834378E917F96E2600584396 /* HighlyQuixotic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HighlyQuixotic-Info.plist"; sourceTree = "<group>"; };
-		834378EB17F96E2600584396 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		834378EB17F96E2600584396 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8343791517F96EA600584396 /* emuconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = emuconfig.h; path = Core/emuconfig.h; sourceTree = "<group>"; };
 		8343791617F96EA600584396 /* kabuki.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = kabuki.c; path = Core/kabuki.c; sourceTree = "<group>"; };
 		8343791717F96EA600584396 /* kabuki.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kabuki.h; path = Core/kabuki.h; sourceTree = "<group>"; };

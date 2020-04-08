@@ -29,10 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		833F682D1CDBCAB000AFB9F0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		833F682D1CDBCAB000AFB9F0 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8343786E17F9658E00584396 /* HighlyTheoretical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HighlyTheoretical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8343787917F9658E00584396 /* HighlyTheoretical-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HighlyTheoretical-Info.plist"; sourceTree = "<group>"; };
-		8343787B17F9658E00584396 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8343787B17F9658E00584396 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		834378A517F9665300584396 /* arm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = arm.c; path = Core/arm.c; sourceTree = "<group>"; };
 		834378A617F9665300584396 /* arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arm.h; path = Core/arm.h; sourceTree = "<group>"; };
 		834378A717F9665300584396 /* dcsound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dcsound.c; path = Core/dcsound.c; sourceTree = "<group>"; };

@@ -408,7 +408,7 @@
 		8342DC831D27A171007FB1C1 /* scsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scsp.h; sourceTree = "<group>"; };
 		8342DCC91D27C0E9007FB1C1 /* yam.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yam.c; sourceTree = "<group>"; };
 		8342DCCA1D27C0E9007FB1C1 /* emuconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emuconfig.h; sourceTree = "<group>"; };
-		835C889022CC1884001B4B3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		835C889022CC1884001B4B3F /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8370B68D17F615FD001A4D7A /* Ay_Core.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Ay_Core.cpp; path = gme/Ay_Core.cpp; sourceTree = "<group>"; };
 		8370B68E17F615FD001A4D7A /* Ay_Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ay_Core.h; path = gme/Ay_Core.h; sourceTree = "<group>"; };
 		8370B68F17F615FD001A4D7A /* blargg_common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = blargg_common.cpp; path = gme/blargg_common.cpp; sourceTree = "<group>"; };

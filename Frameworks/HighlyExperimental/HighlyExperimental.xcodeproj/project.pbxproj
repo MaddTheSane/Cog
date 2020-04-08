@@ -28,10 +28,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		833F682B1CDBCAB000AFB9F0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		833F682B1CDBCAB000AFB9F0 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8360EF1017F92C91005208A4 /* HighlyExperimental.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HighlyExperimental.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8360EF1B17F92C91005208A4 /* HighlyExperimental-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HighlyExperimental-Info.plist"; sourceTree = "<group>"; };
-		8360EF1D17F92C91005208A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8360EF1D17F92C91005208A4 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8360EF4717F92DB0005208A4 /* bios.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bios.c; path = Core/bios.c; sourceTree = "<group>"; };
 		8360EF4817F92DB0005208A4 /* bios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bios.h; path = Core/bios.h; sourceTree = "<group>"; };
 		8360EF4917F92DB0005208A4 /* emuconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = emuconfig.h; path = Core/emuconfig.h; sourceTree = "<group>"; };

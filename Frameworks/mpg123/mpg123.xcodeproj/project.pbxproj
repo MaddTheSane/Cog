@@ -70,7 +70,7 @@
 /* Begin PBXFileReference section */
 		8313E30F1901FBDC00B4B6F1 /* mpg123.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mpg123.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8313E31A1901FBDC00B4B6F1 /* mpg123-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mpg123-Info.plist"; sourceTree = "<group>"; };
-		8313E31C1901FBDC00B4B6F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8313E31C1901FBDC00B4B6F1 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8313E3461901FC3800B4B6F1 /* abi_align.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = abi_align.h; sourceTree = "<group>"; };
 		8313E3471901FC3800B4B6F1 /* compat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compat.c; sourceTree = "<group>"; };
 		8313E3481901FC3800B4B6F1 /* compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compat.h; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		8313E3D91902003100B4B6F1 /* synth_real.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = synth_real.c; sourceTree = "<group>"; };
 		8313E3DA1902003100B4B6F1 /* synth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = synth.c; sourceTree = "<group>"; };
 		8313E3E4190200D000B4B6F1 /* synth_s32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = synth_s32.c; sourceTree = "<group>"; };
-		833F684A1CDBCAC600AFB9F0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		833F684A1CDBCAC600AFB9F0 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

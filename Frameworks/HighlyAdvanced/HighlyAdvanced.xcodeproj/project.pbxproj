@@ -37,10 +37,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		833F682F1CDBCAB100AFB9F0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		833F682F1CDBCAB100AFB9F0 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8343793517F97BDB00584396 /* HighlyAdvanced.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HighlyAdvanced.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8343794017F97BDB00584396 /* HighlyAdvanced-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HighlyAdvanced-Info.plist"; sourceTree = "<group>"; };
-		8343794217F97BDB00584396 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8343794217F97BDB00584396 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8343796D17F97CF600584396 /* blargg_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blargg_common.h; sourceTree = "<group>"; };
 		8343796E17F97CF600584396 /* blargg_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blargg_config.h; sourceTree = "<group>"; };
 		8343796F17F97CF600584396 /* blargg_source.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blargg_source.h; sourceTree = "<group>"; };

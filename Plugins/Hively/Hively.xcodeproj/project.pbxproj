@@ -48,14 +48,14 @@
 
 /* Begin PBXFileReference section */
 		831C7F6918ADD73F00CE4A69 /* PlaylistController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaylistController.h; path = ../../../Playlist/PlaylistController.h; sourceTree = "<group>"; };
-		833F68471CDBCABF00AFB9F0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		833F68471CDBCABF00AFB9F0 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		836FB52D1820538700B3AD2D /* Hively.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hively.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		836FB5301820538700B3AD2D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		836FB5331820538700B3AD2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		836FB5341820538700B3AD2D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		836FB5351820538700B3AD2D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		836FB5381820538700B3AD2D /* Hively-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hively-Info.plist"; sourceTree = "<group>"; };
-		836FB53A1820538700B3AD2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		836FB53A1820538700B3AD2D /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		836FB53C1820538700B3AD2D /* Hively-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hively-Prefix.pch"; sourceTree = "<group>"; };
 		836FB584182053D700B3AD2D /* HivelyPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HivelyPlayer.xcodeproj; path = ../../Frameworks/HivelyPlayer/HivelyPlayer.xcodeproj; sourceTree = "<group>"; };
 		836FB59A1820556F00B3AD2D /* HVLDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVLDecoder.h; sourceTree = "<group>"; };

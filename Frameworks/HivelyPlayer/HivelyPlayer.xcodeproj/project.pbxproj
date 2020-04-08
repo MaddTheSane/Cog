@@ -15,10 +15,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		833F68481CDBCABF00AFB9F0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		833F68481CDBCABF00AFB9F0 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		836FB556182053D700B3AD2D /* HivelyPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HivelyPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		836FB561182053D700B3AD2D /* HivelyPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HivelyPlayer-Info.plist"; sourceTree = "<group>"; };
-		836FB563182053D700B3AD2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		836FB563182053D700B3AD2D /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		836FB58D182054B700B3AD2D /* hvl_replay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hvl_replay.c; sourceTree = "<group>"; };
 		836FB58E182054B700B3AD2D /* hvl_replay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hvl_replay.h; sourceTree = "<group>"; };
 		836FB58F182054B700B3AD2D /* blip_buf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blip_buf.c; sourceTree = "<group>"; };

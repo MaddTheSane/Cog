@@ -196,7 +196,7 @@
 		8360EEEB17F92AC8005208A4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8360EEEC17F92AC8005208A4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		8360EEEF17F92AC8005208A4 /* HighlyComplete-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HighlyComplete-Info.plist"; sourceTree = "<group>"; };
-		8360EEF117F92AC8005208A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8360EEF117F92AC8005208A4 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8360EEF317F92AC8005208A4 /* HighlyComplete-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HighlyComplete-Prefix.pch"; sourceTree = "<group>"; };
 		83848FE61807623F00E7332D /* SSEQPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SSEQPlayer.xcodeproj; path = ../../Frameworks/SSEQPlayer/SSEQPlayer.xcodeproj; sourceTree = "<group>"; };
 		83CA241E1D7BC47C00F2EA53 /* mGBA.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mGBA.xcodeproj; path = ../../Frameworks/mGBA/mGBA.xcodeproj; sourceTree = "<group>"; };

@@ -49,7 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		833F68491CDBCAC000AFB9F0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		833F68491CDBCAC000AFB9F0 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8340888B1F6F604A00DCD404 /* VGMMetadataReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGMMetadataReader.m; sourceTree = "<group>"; };
 		8340888D1F6F604B00DCD404 /* VGMMetadataReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGMMetadataReader.h; sourceTree = "<group>"; };
 		835D241E235AB318009A1251 /* VGMPropertiesReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGMPropertiesReader.m; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		836F6B1718BDB80D0095E648 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		836F6B1818BDB80D0095E648 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		836F6B1B18BDB80D0095E648 /* vgmstream-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vgmstream-Info.plist"; sourceTree = "<group>"; };
-		836F6B1D18BDB80D0095E648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		836F6B1D18BDB80D0095E648 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		836F6B1F18BDB80D0095E648 /* vgmstream-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vgmstream-Prefix.pch"; sourceTree = "<group>"; };
 		836F6B6718BDB8880095E648 /* libvgmstream.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libvgmstream.xcodeproj; path = ../../Frameworks/vgmstream/libvgmstream.xcodeproj; sourceTree = "<group>"; };
 		836F705A18BDC40E0095E648 /* VGMDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGMDecoder.h; sourceTree = "<group>"; };

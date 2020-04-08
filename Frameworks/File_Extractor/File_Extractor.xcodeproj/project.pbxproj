@@ -146,13 +146,13 @@
 
 /* Begin PBXFileReference section */
 		8333B66F1DCC46BA004C140D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		833F68401CDBCAB300AFB9F0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		833F68401CDBCAB300AFB9F0 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8359000017FEF40E0060F3ED /* unrar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unrar.h; sourceTree = "<group>"; };
 		8359000117FEF40E0060F3ED /* unrar_misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unrar_misc.cpp; sourceTree = "<group>"; };
 		8359009E17FF073E0060F3ED /* 7zStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zStream.c; sourceTree = "<group>"; };
 		8359FF3C17FEF39F0060F3ED /* File_Extractor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = File_Extractor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8359FF4717FEF39F0060F3ED /* File_Extractor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "File_Extractor-Info.plist"; sourceTree = "<group>"; };
-		8359FF4917FEF39F0060F3ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8359FF4917FEF39F0060F3ED /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8359FF7417FEF40E0060F3ED /* 7z.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 7z.h; sourceTree = "<group>"; };
 		8359FF7517FEF40E0060F3ED /* 7zAlloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zAlloc.c; sourceTree = "<group>"; };
 		8359FF7617FEF40E0060F3ED /* 7zAlloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 7zAlloc.h; sourceTree = "<group>"; };

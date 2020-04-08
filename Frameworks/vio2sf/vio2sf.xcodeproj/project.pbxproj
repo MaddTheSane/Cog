@@ -55,14 +55,14 @@
 /* Begin PBXFileReference section */
 		833B1A3A180BAD0200414852 /* isqrt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = isqrt.c; sourceTree = "<group>"; };
 		833B1A3B180BAD0200414852 /* isqrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = isqrt.h; sourceTree = "<group>"; };
-		833F68311CDBCAB100AFB9F0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		833F68311CDBCAB100AFB9F0 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83699AB81AB3D8EB00F5A6E3 /* barray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = barray.c; sourceTree = "<group>"; };
 		83699AB91AB3D8EB00F5A6E3 /* barray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = barray.h; sourceTree = "<group>"; };
 		83DD1A0118EA634F00DADA1A /* resampler.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = resampler.c; sourceTree = "<group>"; };
 		83DD1A0218EA634F00DADA1A /* resampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resampler.h; sourceTree = "<group>"; };
 		83DE0C06180A9BD400269051 /* vio2sf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = vio2sf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83DE0C11180A9BD400269051 /* vio2sf-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vio2sf-Info.plist"; sourceTree = "<group>"; };
-		83DE0C13180A9BD400269051 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83DE0C13180A9BD400269051 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83DE0C46180A9CA400269051 /* ARM9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARM9.h; sourceTree = "<group>"; };
 		83DE0C47180A9CA400269051 /* arm_instructions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = arm_instructions.c; sourceTree = "<group>"; };
 		83DE0C48180A9CA400269051 /* arm_instructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arm_instructions.h; sourceTree = "<group>"; };

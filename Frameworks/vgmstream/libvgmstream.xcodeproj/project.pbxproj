@@ -930,7 +930,7 @@
 		835FC6C123F62AEE006960FA /* libatrac9.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libatrac9.xcodeproj; path = ../libatrac9/libatrac9.xcodeproj; sourceTree = "<group>"; };
 		836F6B3918BDB8880095E648 /* libvgmstream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libvgmstream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		836F6B4418BDB8880095E648 /* libvgmstream-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "libvgmstream-Info.plist"; sourceTree = "<group>"; };
-		836F6B4618BDB8880095E648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		836F6B4618BDB8880095E648 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		836F6DE018BDC2180095E648 /* acm_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acm_decoder.c; sourceTree = "<group>"; };
 		836F6DE218BDC2180095E648 /* adx_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adx_decoder.c; sourceTree = "<group>"; };
 		836F6DE518BDC2180095E648 /* coding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coding.h; sourceTree = "<group>"; };
